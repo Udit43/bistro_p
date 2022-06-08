@@ -1,0 +1,484 @@
+body{
+    margin: 0px;
+}
+
+.m3{
+    background-image: url(http://www.sonorestaurant.com.au/wp-content/themes/sono/images/backgrounds-1000x1000-bamboo.jpg);
+    background-repeat: no-repeat;
+    height: 180vh;
+    
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.head{
+    height: 64px;
+    width: 100%;
+    background-image: linear-gradient(black,#000000);
+    opacity: 0.6;
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+.o1{
+    position: relative;
+    top: -20px;
+}
+
+.o1:hover{
+    color: aqua;
+}
+
+.o2{
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.o3{
+    position: relative;
+    left: 470px;
+}
+
+.o4{
+    position: relative;
+    left: 498px;
+}
+
+.o5{
+    position: relative;
+    left: 525px;
+}
+
+.o6{
+    position: relative;
+    left: 550px;
+}
+
+.o7{
+    position: relative;
+    left: 580px;
+}
+
+.o8{
+    position: relative;
+    left: 605px;
+}
+
+.o9{
+    position: relative;
+    left: 635px;
+}
+
+.o10{
+    position: relative;
+    left: 440px;
+}
+
+.m4{
+    font-size: 20px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    padding-top: 120px;
+    /* margin-top: 120px; */
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.m5{
+    background-color: #fff;
+    width: 700px;
+    height: 900px;
+    margin-left: 27%;
+    border-radius: 30px;
+}
+
+
+.m6{
+    font-size: 33.5px;
+    /* font-family: inherit; */
+    font-weight: bold;
+    letter-spacing: .3px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    /* margin-top: 30px; */
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.m7{
+    color: #555555;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+    letter-spacing: .3px;
+}
+
+.m8{
+    margin: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.m9{
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-size: 16px;
+    /* margin-top: 20px; */
+    /* margin-left: 120px;     */
+    letter-spacing: .3px;
+    color: #555555;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.m11{
+    display: inline-block;
+    
+}
+
+.m13{
+    width: 80px;
+    height: 30px;
+
+}
+
+.m12{
+    color: #555555;
+    width: 10px;
+    display: inline-block;
+    background-color: #f0f0f0;
+    width: 30px;
+    /* height: 34.8px; */
+    height: 27.9px;
+    text-align: center;
+    position: relative;
+    bottom: 0.8px;
+    left: 3.8px;
+    border-style: solid;
+    border-width: 0.2px;
+    padding-top: 6px;
+    margin-left: 15px;
+    
+}
+
+.m14{
+    display: inline-block;
+    color: #666;
+    font-family: 'Calibre',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    /* padding-top: 10px; */
+}
+
+
+.m15{
+    color: #555555;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    /* padding-top: 20px;
+    padding-left: 30px; */
+    letter-spacing: .3px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.m16{
+    margin-top: 25px;
+}
+
+.m17{
+    display: inline-block;
+    margin-left: 190px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-size: 16px;
+    letter-spacing: .3px;
+    color: #555555;
+    font-weight: bold;
+}
+
+.m18{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.m19{
+    height: 30px;
+    width: 220px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.12);
+}
+
+.m20{
+    margin-top: 25px;
+}
+
+.m21{
+    display: inline-block;
+    margin-left: 170px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-size: 16px;
+    letter-spacing: .3px;
+    color: #555555;
+    font-weight: bold;
+}
+
+.m22{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.m23{
+    display: inline-block;
+    margin-left: 143px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-size: 16px;
+    letter-spacing: .3px;
+    color: #555555;
+    font-weight: bold;
+    position: relative;
+    bottom: 105px;
+}
+
+.m24{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.m25{
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.12);
+    width: 235px;
+    height: 110px;
+}
+
+
+.m26{
+    color: #555555;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    /* padding-top: 20px;
+    padding-left: 30px; */
+    letter-spacing: .3px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.m27{
+    display: inline-block;
+    margin-left: 138px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-size: 16px;
+    letter-spacing: .3px;
+    color: #555555;
+    font-weight: bold;
+}
+
+.m28{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.m19{
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    letter-spacing: .3px;
+    padding-left: 10px;
+    color: #555555;
+}
+
+.m29{
+    display: inline-block;
+    margin-left: 96px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-size: 16px;
+    letter-spacing: .3px;
+    color: #555555;
+    font-weight: bold;
+}
+
+.m30{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.m19{
+    height: 38px;
+    width: 230px;
+}
+
+
+.l1{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#516d71;
+}
+
+.btn {
+    background: #516d71;
+    background-image: -webkit-linear-gradient(top, #516d71, #516d71);
+    background-image: -moz-linear-gradient(top, #516d71, #516d71);
+    background-image: -ms-linear-gradient(top, #516d71, #516d71);
+    background-image: -o-linear-gradient(top, #516d71, #516d71);
+    background-image: linear-gradient(to bottom, #516d71, #516d71);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0.575rem 1rem;
+    border: solid #ffffff 2px;
+    /* position: relative;
+    top: 100px; */
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+  
+.btn:hover {
+    background: #f0f0f0;
+    text-decoration: none;
+    color: #516d71;
+}
+
+
+.m31{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+/* .z11{
+    position: relative;
+    left: 575px;
+} */
+
+.m32{
+    margin: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.foot{
+    width: 100%;
+    height: 260px;
+    background-color: black;
+    background-image: url(bb.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.v1{
+    width: 100%;
+    padding-top: 100px;
+    /* margin-top: 50px; */
+}
+
+.v2{
+    text-decoration: none;
+    cursor: pointer;
+    color: aqua;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+}
+
+.v2:hover{
+    color: white;
+}
+
+.v3{
+    /* padding-left: 20px; */
+    margin-left: 37px;
+}
+
+.v4{
+    margin-left: 798px;
+}
+
+.v5{
+    width: 100%;
+    padding-top: 25px;
+}
+
+.fab{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.fab:hover{
+    color: aqua;
+}
+
+.fab1{
+    font-size: 28px;
+}
+
+.v6{
+    text-decoration: none;
+    cursor: pointer;
+    color: aqua;
+    font-family: Montserrat,sans-serif;
+    /* margin-bottom: 20px; */
+    /* padding-bottom: 10px; */
+}
+
+.v6:hover{
+    color: white;
+}
+
+.v7{
+    margin-left: 16px;
+}
+
+.v8{
+    margin-left: 877px;
+}
+
+.i1{
+    width: 100%;
+    height: 70px;
+}
+
+.i2{
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 25px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 700;
+}
+
+

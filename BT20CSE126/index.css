@@ -1,0 +1,1141 @@
+body{
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.head{
+    height: 60px;
+    width: 100%;
+    /* background-image: linear-gradient(black,#000000); */
+    background-color: #4d4545;
+    opacity: 0.6;
+    position: fixed;
+    z-index: 1;
+}
+
+.image{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.zoom{
+    width: 100%;
+    height: 721px;
+    background-color: black;
+    /* opacity: 0.5; */
+}
+
+
+
+.zoom1{
+    background-image: url(https://images.unsplash.com/photo-1513185158878-8d8c2a2a3da3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjA4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-color: aqua;
+    margin-left: 60px;
+    margin-top: 125px;
+    display: inline-block;
+    animation: zoo1 3s linear infinite;
+    /* z-index: 1; */
+}
+
+.zoom2{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: brown;
+    background-image: url(https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mjd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo2 2.5s linear infinite;
+}
+
+.zoom3{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(206, 138, 11);
+    background-image: url(https://images.unsplash.com/photo-1574484284002-952d92456975?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo3 3s linear infinite;
+}
+
+.zoom4{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(42, 165, 73);
+    background-image: url(https://images.unsplash.com/photo-1559054663-e8d23213f55c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nzh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo4 3.5s linear infinite;
+}
+
+.zoom5{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(42, 165, 73);
+    background-image: url(https://images.unsplash.com/photo-1509482560494-4126f8225994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTAyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo5 2.3s linear infinite;
+}
+
+.zoom6{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(42, 165, 73);
+    background-image: url(https://images.unsplash.com/photo-1520218576172-c1a2df3fa5fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTA3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo6 1.8s linear infinite;
+}
+
+.zoom7{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(42, 165, 73);
+    background-image: url(https://images.unsplash.com/photo-1593584785033-9c7604d0863f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTEyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo7 0.8s linear infinite;
+}
+
+.zoom8{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(42, 165, 73);
+    background-image: url(https://images.unsplash.com/photo-1509365465985-25d11c17e812?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTQ3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo8 1.5s linear infinite;
+}
+
+.zoom9{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(42, 165, 73);
+    background-image: url(https://images.unsplash.com/photo-1560180474-e8563fd75bab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTY3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo9 1.9s linear infinite;
+}
+
+.zoom10{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(245, 229, 8);
+    background-image: url(https://images.unsplash.com/photo-1591985666643-1ecc67616216?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjU3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo10 1s linear infinite;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.zoom11{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(240, 146, 4);
+    background-image: url(https://images.unsplash.com/photo-1559598467-8be25b6dc34f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjYzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo11 3s linear infinite;
+}
+
+.zoom12{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(8, 56, 48);
+    background-image: url(https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjY0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo12 2s linear infinite;
+}
+
+.zoom13{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(168, 197, 175);
+    background-image: url(https://images.unsplash.com/photo-1604152135912-04a022e23696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mjg2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo13 1.5s linear infinite;
+    z-index: 1;
+}
+
+.zoom14{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(165, 42, 93);
+    background-image: url(https://images.unsplash.com/photo-1568464774940-a3de36f824a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGljZWNyZWFtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo14 1.9s linear infinite;
+}
+
+.zoom15{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(42, 147, 165);
+    background-image: url(https://images.unsplash.com/photo-1627308595186-e6bb36712645?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dGhhaSUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    animation: zoo15 3s linear infinite;
+}
+
+.zoom16{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(52, 165, 42);
+    background-image: url(https://images.unsplash.com/photo-1606755962773-d324e0a13086?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNoaWNrZW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo16 2s linear infinite;
+}
+
+.zoom17{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(165, 42, 144);
+    background-image: url(https://images.unsplash.com/photo-1625497248300-475c9557dd3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODV8fGljZWNyZWFtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo17 2.6s linear infinite;
+}
+
+.zoom18{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(110, 42, 165);
+    background-image: url(https://images.unsplash.com/photo-1524433759131-7ac85ce2fb7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjA0fHxpY2VjcmVhbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo18 3s linear infinite;
+}
+
+.zoom19{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(110, 42, 165);
+    background-image: url(https://media.istockphoto.com/photos/summer-ice-cream-buffet-table-with-a-variety-of-flavors-and-sweet-picture-id1324402462?b=1&k=20&m=1324402462&s=170667a&w=0&h=ZhykaW6cjGWwqMvV6G9dEFpdefGbLKIK-8FnMVAOWCk=);
+    animation: zoo19 2s linear infinite;
+}
+
+.zoom20{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(245, 229, 8);
+    background-image: url(https://images.unsplash.com/photo-1596797038530-2c107229654b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aW5kaWFuJTIwZm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo20 1s linear infinite;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.zoom21{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(110, 42, 165);
+    background-image: url(https://images.unsplash.com/photo-1625398407796-82650a8c135f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGluZGlhbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    animation: zoo21 2.7s linear infinite;
+}
+
+.zoom22{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(110, 42, 165);
+    background-image: url(https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE1fHxpbmRpYW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo22 2.4s linear infinite;
+}
+
+.zoom23{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(110, 42, 165);
+    background-image: url(https://images.unsplash.com/photo-1508737804141-4c3b688e2546?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTUxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo23 2.6s linear infinite;
+}
+
+.zoom24{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(110, 42, 165);
+    background-image: url(https://images.unsplash.com/photo-1641665273583-45bfc9f3d292?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjg0fHxpY2VjcmVhbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo24 1.2s linear infinite;
+}
+
+.zoom25{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(110, 42, 165);
+    background-image: url(https://images.unsplash.com/photo-1519676867240-f03562e64548?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzU0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo25 1.7s linear infinite;
+}
+
+.zoom26{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(110, 42, 165);
+    background-image: url(https://images.unsplash.com/photo-1522666257812-173fdc2d11fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fHNwYW5pc2glMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo26 3s linear infinite;
+}
+
+.zoom27{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(110, 42, 165);
+    background-image: url(https://images.unsplash.com/photo-1516100882582-96c3a05fe590?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODZ8fHNwYW5pc2glMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo27 2.4s linear infinite;
+}
+
+.zoom28{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    background-color: rgb(110, 42, 165);
+    background-image: url(https://images.unsplash.com/photo-1520218508822-998633d997e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTM2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    animation: zoo28 2.2s linear infinite;
+}
+
+
+@keyframes zoo1{
+    0% {transform: scale(1);}
+    20% {transform: scale(0.8);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+    
+}
+
+@keyframes zoo2{
+    0% {transform: scale(1);}
+    25% {transform: scale(1.3);}
+    75% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+    
+}
+
+@keyframes zoo3{
+    0% {transform: scale(1);}
+    20% {transform: scale(1.3);}
+    /* 70% {transform: scale(1.2);} */
+    30% {transform: scale(1.4);}
+    50% {transform: scale(1.5);}
+    60% {transform: scale(1.4);}
+    80% {transform: scale(1.3);}
+    100% {transform: scale(1);}
+}
+
+@keyframes zoo4{
+    0% {transform: scale(1);}
+    50% {transform: scale(0.5);}
+    100% {transform: scale(1.2);}
+    
+}
+
+@keyframes zoo5{
+    0% {transform: scale(1);}
+    20% {transform: scale(0.5);}
+    30% {transform: scale(0.8);}
+    50% {transform: scale(1.7);}
+    /* 70% {transform: scale(0.8);}
+    80% {transform: scale(0.5);}
+    100% {transform: scale(1);} */
+}
+
+@keyframes zoo6{
+    0% {transform: scale(1);}
+    50% {transform: scale(0.5);}
+    50% {transform: scale(0.8);}
+    100% {transform: scale(1);}
+    
+}
+
+@keyframes zoo7{
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    50% {transform: scale(0.8);}
+    100% {transform: scale(1.3);}
+    
+}
+
+@keyframes zoo8{
+    0% {transform: scale(1);}
+    15% {transform: scale(1.2);}
+    30% {transform: scale(0.8);}
+    80% {transform: scale(1.3);}
+    10% {transform: scale(1.2);}    
+}
+
+@keyframes zoo9{
+    0% {transform: scale(1);}
+    15% {transform: scale(0.8);}
+    80% {transform: scale(0.9);}
+    10% {transform: scale(1);}    
+}
+
+@keyframes zoo10{
+    0% {transform: scale(1);}
+    15% {transform: scale(0.8);}
+    80% {transform: scale(0.9);}
+    10% {transform: scale(1);}    
+}
+
+@keyframes zoo11{
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    50% {transform: scale(0.8);}
+    100% {transform: scale(1.3);}
+}
+
+
+@keyframes zoo12{
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    70% {transform: scale(1.5);}
+    100% {transform: scale(1.7);}
+}
+
+@keyframes zoo13{
+    0% {transform: scale(1.2);}
+    50% {transform: scale(1);}
+    50% {transform: scale(0.9);}
+    100% {transform: scale(0.8);}
+}
+
+@keyframes zoo14{
+    0% {transform: scale(1);}
+    10% {transform: scale(1.05);}
+    20% {transform: scale(1.08);}
+    30% {transform: scale(1.1);}
+    40% {transform: scale(1.2);}
+    50% {transform: scale(1.3);}
+    60% {transform: scale(1.35);}
+    100% {transform: scale(1.4);}
+}
+
+@keyframes zoo15{
+    0% {transform: scale(1);}
+    10% {transform: scale(1.2);}
+    20% {transform: scale(1.3);}
+    30% {transform: scale(1.4);}
+    40% {transform: scale(1.5);}
+    50% {transform: scale(1.7);}
+    60% {transform: scale(1.6);}
+    70% {transform: scale(1.5);}
+    80% {transform: scale(1.4);}
+    90% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+
+@keyframes zoo16{
+    0% {transform: scale(1.2);}
+    50% {transform: scale(1);}
+    50% {transform: scale(0.9);}
+    100% {transform: scale(0.8);}
+}
+
+@keyframes zoo17{
+    0% {transform: scale(1);}
+    50% {transform: scale(0.8);}
+    70% {transform: scale(0.9);}
+    100% {transform: scale(1.2);}
+}
+
+@keyframes zoo18{
+    0% {transform: scale(1);}
+    50% {transform: scale(1.08);}
+    70% {transform: scale(1.1);}
+    100% {transform: scale(1.2);}
+}
+
+@keyframes zoo19{
+    0% {transform: scale(1);}
+    20% {transform: scale(1.08);}
+    30% {transform: scale(1.1);}
+    40% {transform: scale(1.2);}
+    60% {transform: scale(1.1);}
+    80% {transform: scale(1.08);}
+    100% {transform: scale(1);}
+}
+
+@keyframes zoo20{
+    0% {transform: scale(1);}
+    20% {transform: scale(1.08);}
+    30% {transform: scale(1.3);}
+    50% {transform: scale(1.5);}
+    70% {transform: scale(1.3);}
+    80% {transform: scale(1.08);}
+    100% {transform: scale(1);}
+}
+
+
+@keyframes zoo21{
+    0% {transform: scale(1);}
+    50% {transform: scale(0.7);}
+    80% {transform: scale(0.9);}
+    100% {transform: scale(1);}
+}
+
+@keyframes zoo22{
+    0% {transform: scale(1);}
+    50% {transform: scale(0.7);}
+    80% {transform: scale(0.9);}
+    100% {transform: scale(1.6);}
+}
+
+@keyframes zoo23{
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    70% {transform: scale(1);}
+    100% {transform: scale(1.3);}
+}
+
+@keyframes zoo24{
+    0% {transform: scale(1);}
+    50% {transform: scale(0.7);}
+    80% {transform: scale(0.8);}
+    100% {transform: scale(1);}
+}
+
+@keyframes zoo25{
+    0% {transform: scale(1);}
+    50% {transform: scale(0.7);}
+    70% {transform: scale(0.9);}
+    80% {transform: scale(0.8);}
+    100% {transform: scale(1);}
+}
+
+@keyframes zoo26{
+    0% {transform: scale(1);}
+    50% {transform: scale(0.7);}
+    70% {transform: scale(0.9);}
+    80% {transform: scale(0.8);}
+    100% {transform: scale(1.3);}
+}
+
+@keyframes zoo27{
+    0% {transform: scale(1);}
+    20% {transform: scale(0.9);}
+    30% {transform: scale(0.95);}
+    40% {transform: scale(0.98);}
+    50% {transform: scale(1.1);}
+    60% {transform: scale(0.98);}
+    70% {transform: scale(0.95);}
+    80% {transform: scale(0.9);}
+    100% {transform: scale(1);}
+}
+
+@keyframes zoo28{
+    0% {transform: scale(1);}
+    20% {transform: scale(1.2);}
+    40% {transform: scale(1.3);}
+    50% {transform: scale(1.5);}
+    60% {transform: scale(1.3);}
+    80% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+
+
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.o1{
+    position: relative;
+    top: -20px;
+}
+
+.o2{
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.o2:hover{
+    color: cyan;
+}
+
+.o3{
+    position: relative;
+    left: 470px;
+}
+
+.o4{
+    position: relative;
+    left: 498px;
+}
+
+.o5{
+    position: relative;
+    left: 525px;
+}
+
+.o6{
+    position: relative;
+    left: 550px;
+}
+
+.o7{
+    position: relative;
+    left: 580px;
+}
+
+.o8{
+    position: relative;
+    left: 605px;
+}
+
+.o9{
+    position: relative;
+    left: 635px;
+}
+
+.o10{
+    position: relative;
+    left: 440px;
+}
+
+.foot{
+    width: 100%;
+    height: 260px;
+    background-color: black;
+    background-image: url(bb.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.k1{
+    width: 100%;
+    height: 1200px;
+}
+
+.k2{
+    background-image: url(https://www.sonorestaurant.com.au/wp-content/uploads/2016/09/backgrounds-1000x1000-fish.jpg);
+    height: 1150px; 
+    width: 47.47%; 
+    float: left;
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 23px;
+}
+
+.k3{
+    background-image: url(https://www.sonorestaurant.com.au/wp-content/uploads/2016/09/backgrounds-1000x1000-bonsai.jpg);
+    height: 1150px; 
+    width: 47.47%; 
+    display: inline-block;
+    float: right;
+    margin-right: 25px;
+    margin-top: 23px;
+}
+
+.k5{
+    font-family: "Rosario", "Open Sans", "Arial", sans-serif;
+    font-size: 35px;
+    
+    font-weight: 600;
+    font-style: normal;
+    color: #000000;
+    text-transform: uppercase;
+    /* margin-top: -7px; */
+    letter-spacing: 3px;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
+.k6{
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    padding-left: 100px;
+    padding-top: 18px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    color: #000000;
+    padding-right: 118px;
+    font-style: normal;
+}
+
+.k7{
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    padding-left: 100px;
+}
+
+
+.k8{
+    /* display: inline-block; */
+    margin-left: 232px;
+    /* padding-bottom: 20px; */
+    /* float: left; */
+}
+
+.k9{
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    /* font-style: normal; */
+    font-size: 16px;
+    color: #000000;
+}
+
+.k10{
+    -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 3;
+  background: #320c01;
+  padding: 10px 55px 10px 55px;
+  text-decoration: none;
+  
+}
+
+.k10:hover {
+    background: #320c01;
+    background-image: -webkit-linear-gradient(top, #320c01, #612f21);
+    background-image: -moz-linear-gradient(top, #320c01, #612f21);
+    background-image: -ms-linear-gradient(top, #320c01, #612f21);
+    background-image: -o-linear-gradient(top, #320c01, #612f21);
+    background-image: linear-gradient(to bottom, #320c01, #612f21);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.k11{
+      padding-left: 470px;
+}
+
+.k4{
+    padding-top: 90px;
+    padding-left: 100px;
+    color: #000000;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 700;
+    /* font-style: normal; */
+    font-size: 18px;
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.k12{
+    font-size: 16px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000000;
+    padding-left:100px ;
+}
+
+.k13{
+    padding-left: 100px;
+    color: #000000;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 700;
+    /* font-style: normal; */
+    font-size: 17px;
+}
+
+.k14{
+    width: 100%;
+    height: 450px;
+}
+
+.k15{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    cursor: zoom-in;
+}
+
+
+.p1{
+    width: 100%;
+    height: 450px;
+}
+
+.p2{
+    background-image: url(https://www.sonorestaurant.com.au/wp-content/uploads/2016/09/backgrounds-1000x1000-bonsai.jpg);
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    display: inline-block;
+    float: left;
+    /* padding-left: 25px; */
+    margin-left: 25px;
+    margin-top: 23px;
+}
+
+.n1{
+    float: right;
+    margin-right: 25px;
+    margin-left: 0px;
+
+    background-image: url(https://www.sonorestaurant.com.au/wp-content/uploads/2016/09/backgrounds-1000x1000-bonsai.jpg);
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    display: inline-block;
+    
+    /* padding-left: 25px; */
+
+    margin-top: 23px;
+}
+
+
+.p3{
+    font-size: 30px;
+    font-family: "Rosario", "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000000;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.p4{
+    width: 50%;
+    padding-left: 148px;
+    padding-top: 5px;
+}
+
+.m1{
+    font-size: 22px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* padding-left: 170px; */
+    text-align: center;
+}
+
+.p5{
+    -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 3;
+  background: #320c01;
+  padding: 12px 30px 12px 30px;
+  text-decoration: none;
+}
+
+.p5:hover {
+    background: #320c01;
+    background-image: -webkit-linear-gradient(top, #320c01, #612f21);
+    background-image: -moz-linear-gradient(top, #320c01, #612f21);
+    background-image: -ms-linear-gradient(top, #320c01, #612f21);
+    background-image: -o-linear-gradient(top, #320c01, #612f21);
+    background-image: linear-gradient(to bottom, #320c01, #612f21);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.p6{
+    padding-left: 220px;
+    padding-top: 25px;
+}
+
+.i1{
+    width: 100%;
+    height: 70px;
+}
+
+.i2{
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 25px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 700;
+}
+
+.p7{
+    /* background-image: url(https://www.sonorestaurant.com.au/wp-content/uploads/2016/09/backgrounds-1000x1000-bonsai.jpg); */
+    width: 860px;
+    height: 450px;
+    display: inline-block;
+    float: right;
+    overflow:hidden ;
+}
+
+
+
+.n2{
+    float: left;
+    width: 860px;
+    height: 450px;
+    display: inline-block;
+    overflow:hidden ;
+}
+
+/*  */
+.j2{
+    width: 500%;
+    height: 450px;
+    display: flex;
+    
+}
+
+.j2 input{
+    display: none;
+}
+
+.j3{
+    width: 20%;
+    transition: 2s;
+}
+
+.j3 img{
+    width: 860px;
+    height: 450px;
+}
+
+.j10{
+    position: absolute;
+    width: 860px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.j11{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.j11:not(:last-child){
+    margin-right: 40px;
+}
+
+.j11:hover{
+    background: white;
+}
+
+#radio1:checked ~ .j4{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .j4{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .j4{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .j4{
+    margin-left: -60%;
+}
+
+#radio5:checked ~ .j4{
+    margin-left: 0;
+}
+
+#radio6:checked ~ .j4{
+    margin-left: -20%;
+}
+
+#radio7:checked ~ .j4{
+    margin-left: -40%;
+}
+
+#radio8:checked ~ .j4{
+    margin-left: -60%;
+}
+
+.j5{
+    position: absolute;
+    display: flex;
+    width: 860px;
+    justify-content: center;
+    margin-top: 410px;
+}
+
+.j5 div{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.j5 div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .j5 .j6{
+    background: white;
+}
+
+#radio2:checked ~ .j5 .j7{
+    background: white;
+}
+
+#radio3:checked ~ .j5 .j8{
+    background: white;
+}
+
+#radio4:checked ~ .j5 .j9{
+    background: white;
+}
+
+#radio5:checked ~ .j5 .j6{
+    background: white;
+}
+
+#radio6:checked ~ .j5 .j7{
+    background: white;
+}
+
+#radio7:checked ~ .j5 .j8{
+    background: white;
+}
+
+#radio8:checked ~ .j5 .j9{
+    background: white;
+}
+
+/*  */
+
+
+.v1{
+    width: 100%;
+    padding-top: 100px;
+    /* margin-top: 50px; */
+}
+
+.v2{
+    text-decoration: none;
+    cursor: pointer;
+    color: aqua;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+}
+
+.v2:hover{
+    color: white;
+}
+
+.v3{
+    /* padding-left: 20px; */
+    margin-left: 37px;
+}
+
+.v4{
+    margin-left: 798px;
+}
+
+.v5{
+    width: 100%;
+    padding-top: 25px;
+}
+
+.fab{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.fab:hover{
+    color: aqua;
+}
+
+.fab1{
+    font-size: 28px;
+}
+
+.v6{
+    text-decoration: none;
+    cursor: pointer;
+    color: aqua;
+    font-family: Montserrat,sans-serif;
+    /* margin-bottom: 20px; */
+    /* padding-bottom: 10px; */
+}
+
+.v6:hover{
+    color: white;
+}
+
+.v7{
+    margin-left: 16px;
+}
+
+.v8{
+    margin-left: 877px;
+}
+

@@ -1,0 +1,402 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    height: 60px;
+    width: 100%;
+    /* background-image: linear-gradient(black,#000000); */
+    background-color: #4d4545;
+    opacity: 0.6;
+    position: fixed;
+    z-index: 1;
+}
+
+.image{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.o1{
+    position: relative;
+    top: -20px;
+}
+
+.o2{
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.o2:hover{
+    color: cyan;
+}
+
+.o3{
+    position: relative;
+    left: 470px;
+}
+
+.o4{
+    position: relative;
+    left: 498px;
+}
+
+.o5{
+    position: relative;
+    left: 525px;
+}
+
+.o6{
+    position: relative;
+    left: 550px;
+}
+
+.o7{
+    position: relative;
+    left: 580px;
+}
+
+.o8{
+    position: relative;
+    left: 605px;
+}
+
+.o9{
+    position: relative;
+    left: 635px;
+}
+
+.o10{
+    position: relative;
+    left: 440px;
+}
+
+.r1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://rnzxu3lrgrj1046y63g4g7l1-wpengine.netdna-ssl.com/wp-content/uploads/2021/08/parallax-img-1.jpg?id=13906);
+    
+}
+
+.r2{
+    width: 360px;
+    height: 530px;
+    background-color: #141c27;
+    display: inline-block;
+    margin-top: 125px;
+    float: left;
+    margin-left: 220px;
+    
+}
+
+.r3{
+    width: 700px;
+    height: 530px;
+    background-color: white;
+    display: inline-block;
+    float: right;
+    margin-top: 125px;
+    margin-right: 230px;
+}
+
+h1{
+    margin: 0px;
+}
+
+.r4{
+    border: 1px dashed rgba(255, 255, 255, 0.30);
+   width: 287px;
+   height: 470px;
+   margin-top: 30px;
+   margin-left: 35px;
+}
+
+.r5{
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(232, 230, 189);
+    font-family: "Bellefair";
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.r6{
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Yeseva One', sans-serif;
+    text-align: center; 
+    color: white;
+    margin-top: 10px;
+}
+
+.r7{
+    font-size: 18px;
+    text-align: center; 
+    font-family: 'Bellefair', sans-serif;
+    font-weight: 400;
+    color: rgb(232, 230, 189);
+    margin-top: 40px;
+}
+
+.r8{
+    font-size: 18px;
+    color: #fff;
+    text-align: center; 
+    font-family: 'Bellefair', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.r9{
+    font-size: 18px;
+    text-align: center; 
+    font-family: 'Bellefair', sans-serif;
+    font-weight: 400;
+    color: rgb(232, 230, 189);
+    margin-top: 30px;
+}
+
+.r10{
+    border: 1px dashed rgb(232, 230, 189);
+   width: 630px;
+   height: 470px;
+   margin-top: 31px;
+   margin-left: 35px;
+}
+
+.r11{
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(232, 230, 189);
+    font-family: "Bellefair";
+    /* margin-left: 15px;
+    margin-right: 15px; */
+}
+
+.r12{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Yeseva One', sans-serif;
+    text-align: center; 
+    color: black;
+    margin-top: 10px;
+}
+
+.r13{
+    width: 630px;
+}
+
+.r14{
+    width: 160px;
+    height: 45px;
+    padding-left: 15px;
+    border: none;
+    background-color: #f8f8f8;
+    margin-left: 25px;
+    font-family: "Bellefair";
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.r15{
+    width: 160px;
+    height: 45px;
+    padding-left: 15px;
+    border: none;
+    background-color: #f8f8f8;
+    margin-left: 20px;
+    font-family: "Bellefair";
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.r16{
+    width: 160px;
+    height: 45px;
+    padding-left: 15px;
+    border: none;
+    background-color: #f8f8f8;
+    margin-left: 20px;
+    font-family: "Bellefair";
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.r17{
+    width: 630px;
+    margin-top: 80px;
+}
+
+.r18{
+    width: 160px;
+    height: 45px;
+    padding-left: 15px;
+    border: none;
+    background-color: #f8f8f8;
+    margin-left: 25px;
+    font-family: "Bellefair";
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.r19{
+    width: 180px;
+    height: 45px;
+    padding-left: 15px;
+    border: none;
+    background-color: #f8f8f8;
+    margin-left: 20px;
+    font-family: "Bellefair";
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.r20{
+    width: 178px;
+    height: 45px;
+    padding-left: 15px;
+    border: none;
+    background-color: #f8f8f8;
+    margin-left: 20px;
+    font-family: "Bellefair";
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.r21{
+    width: 630px;
+}
+
+.r22{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: "Bellefair";
+    color: #ffffff;
+    font-size: 15px;
+    background: rgb(232, 230, 189);
+    padding: 15px 40px 15px 40px;
+    text-decoration: none;
+    border: none;
+    margin-left: 220px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+  
+.r22:hover{
+    background: rgb(232, 230, 189);
+    text-decoration: none;
+    
+}
+
+.foot{
+    width: 100%;
+    height: 260px;
+    background-color: black;
+    background-image: url(bb.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.v1{
+    width: 100%;
+    padding-top: 100px;
+    /* margin-top: 50px; */
+}
+
+.v2{
+    text-decoration: none;
+    cursor: pointer;
+    color: aqua;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+}
+
+.v2:hover{
+    color: white;
+}
+
+.v3{
+    /* padding-left: 20px; */
+    margin-left: 37px;
+}
+
+.v4{
+    margin-left: 798px;
+}
+
+.v5{
+    width: 100%;
+    padding-top: 25px;
+}
+
+.fab{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.fab:hover{
+    color: aqua;
+}
+
+.fab1{
+    font-size: 28px;
+}
+
+.v6{
+    text-decoration: none;
+    cursor: pointer;
+    color: aqua;
+    font-family: Montserrat,sans-serif;
+    /* margin-bottom: 20px; */
+    /* padding-bottom: 10px; */
+}
+
+.v6:hover{
+    color: white;
+}
+
+.v7{
+    margin-left: 16px;
+}
+
+.v8{
+    margin-left: 877px;
+}
+
+.i1{
+    width: 100%;
+    height: 70px;
+}
+
+.i2{
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 25px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 700;
+}
+
+
+
